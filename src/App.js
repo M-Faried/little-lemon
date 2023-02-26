@@ -1,9 +1,24 @@
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Error from './pages/Error';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: < Home />,
+    errorElement: < Error />
+  },
+  {
+    path: '/about',
+    element: < About />
+  }
+])
 
 function App() {
   return (
     <div className="App">
-      <h1>Here is the Little Lemon App.</h1>
+      <RouterProvider router={router} />
     </div>
   );
 }
