@@ -1,0 +1,38 @@
+footer {
+    background-color: #495e57;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-logo>img {
+    height: 200px;
+    padding-top: 2rem;
+}
+
+.footer-list-header {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+
+.footer-list>a,
+.footer-list>li {
+    color: white;
+    margin-top: 0.7rem
+}
+
+.footer-list>a:hover {
+    text-decoration: underline;
+}

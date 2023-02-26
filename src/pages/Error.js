@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import PageWrapper from "./PageWrapper/PageWrapper";
 
 const Error = () => {
     const error = useRouteError();
@@ -15,4 +16,4 @@ const Error = () => {
     );
 }
 
-export default Error;
+export default PageWrapper(Error);
