@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer';
 
 const PageHeader = ({ imgSrc, text }) => {
     return (
-        <header>
+        <header className='default-header'>
             <img src={imgSrc} alt="header" />
             <div className="header-text">
                 <h1>{text}</h1>
@@ -17,10 +17,15 @@ const PageWrapper = (Component, imgSrc, text) => {
     return () => (
         <div className='page-structure'>
             <Navbar />
-            <div>
-                {imgSrc && text && <PageHeader imgSrc={imgSrc} text={text} />}
+            {imgSrc && text &&
+                <div>
+                    <PageHeader imgSrc={imgSrc} text={text} />
+                    <main><Component /></main>
+                </div>
+            }
+            {(!imgSrc || !text) &&
                 <main><Component /></main>
-            </div>
+            }
             <Footer />
         </div>
     )
