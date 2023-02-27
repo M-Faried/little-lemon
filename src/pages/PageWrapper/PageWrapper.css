@@ -4,3 +4,33 @@
     display: grid;
     grid-template-rows: 100px auto 250px;
 }
+
+header {
+    width: 100vw;
+    height: 18rem;
+    position: relative;
+}
+
+header>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text {
+    background-color: #495e57;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 0.5rem;
+    font-size: 25px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    padding: 40px;
+}
