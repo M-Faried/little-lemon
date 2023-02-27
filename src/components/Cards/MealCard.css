@@ -1,0 +1,32 @@
+.meal-card {
+    background-color: #edefee;
+    padding-bottom: 1rem;
+    transition: 0.4s;
+}
+
+.meal-card:hover {
+    transform: scale(1.05);
+}
+
+.meal-card>img {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.meal-card>img:hover {
+    cursor: pointer;
+}
+
+.meal-card-contents {
+    margin: 1rem 2rem;
+}
+
+.meal-card-contents>h1 {
+    font-size: 2rem;
+}
+
+.meal-card-contents>h3 {
+    font-size: 1.6rem;
+    margin: 0.6rem 0;
+}
