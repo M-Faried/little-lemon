@@ -1,11 +1,12 @@
 import './Testimonials.css';
+import SectionHeader from '../SectionHeader/SectionHeader';
 import TestimonialCard from '../Cards/TestimonialCard';
 
 const Testimonials = () => {
     return (
         <div className="testimonials">
 
-            <div className="testimonials-header">Testimonials</div>
+            <SectionHeader text="Testimonials" />
 
             <div className="testimonials-container">
                 <TestimonialCard

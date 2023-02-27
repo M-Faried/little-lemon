@@ -1,12 +1,14 @@
 import Resources from '../../Resources';
 import './HomeSpecials.css';
+import SectionHeader from '../SectionHeader/SectionHeader';
 import MealCard from '../Cards/MealCard';
+
 
 const HomeSpecials = () => {
     return (
         <div className="special-meals">
 
-            <div className="special-meals-header">This Week's Specials!!!</div>
+            <SectionHeader text="This Week's Specials!!!" />
 
             <div className="special-meals-container">
                 <MealCard

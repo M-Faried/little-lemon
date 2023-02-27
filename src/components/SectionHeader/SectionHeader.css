@@ -1,0 +1,9 @@
+.section-header {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-header>span {}
