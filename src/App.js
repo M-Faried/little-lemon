@@ -3,15 +3,16 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
+import Routes from './Routes';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: Routes.HOME,
     element: < Home />,
     errorElement: < Error />
   },
   {
-    path: '/about',
+    path: Routes.ABOUT,
     element: < About />
   }
 ])

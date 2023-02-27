@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import Resources from '../../Resources';
+import Routes from '../../Routes';
 
 
 const Navbar = () => {
@@ -15,11 +16,11 @@ const Navbar = () => {
                 />
             </div>
 
-            <Link className="styled-link" to='/'>Home</Link>
-            <Link className="styled-link" to='/about'>About</Link>
-            <Link className="styled-link" to='/reservations'>Reservations</Link>
-            <Link className="styled-link" to='/order'>Order</Link>
-            <Link className="styled-link" to='/login'>Login</Link>
+            <Link className="styled-link" to={Routes.HOME}>Home</Link>
+            <Link className="styled-link" to={Routes.ORDER}>Order</Link>
+            <Link className="styled-link" to={Routes.RESERVE}>Reservations</Link>
+            <Link className="styled-link" to={Routes.LOGIN}>Login</Link>
+            <Link className="styled-link" to={Routes.ABOUT}>About</Link>
         </nav>
     );
 }

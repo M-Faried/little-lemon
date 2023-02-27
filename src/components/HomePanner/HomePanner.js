@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import Resources from '../../Resources';
 import './HomePanner.css';
+import Resources from '../../Resources';
+import Routes from '../../Routes';
 
 const HomePanner = () => {
     return (
@@ -12,7 +13,7 @@ const HomePanner = () => {
                     We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus
                     on traditional recipes served with a modern twist.
                 </p>
-                <Link className="panner-button" to="/reservations">Reserve Table</Link>
+                <Link className="panner-button" to={Routes.RESERVE}>Reserve Table</Link>
             </div>
             <div className='panner-image'>
                 <img src={Resources.pannerImage} alt="panner" />
