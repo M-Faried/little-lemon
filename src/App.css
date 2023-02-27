@@ -11,3 +11,21 @@ a {
 a:visited {
     color: black
 }
+
+.goto-button {
+    display: flex;
+    justify-content: center;
+    background-color: #f4ce14;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 40px;
+}
+
+.goto-button:hover {
+    background-color: #edd353;
+    transform: scale(1.05);
+    transition: 0.2s;
+}

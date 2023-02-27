@@ -13,7 +13,7 @@ const HomePanner = () => {
                     We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus
                     on traditional recipes served with a modern twist.
                 </p>
-                <Link className="panner-button" to={Routes.RESERVE}>Reserve Table</Link>
+                <Link className="goto-button" to={Routes.RESERVE}>Reserve Table</Link>
             </div>
             <div className='panner-image'>
                 <img src={Resources.pannerImage} alt="panner" />
