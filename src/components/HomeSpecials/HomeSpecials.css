@@ -1,0 +1,17 @@
+.special-meals {
+    padding: 2rem 5rem 0 5rem;
+}
+
+.special-meals-header {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.special-meals-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+}
