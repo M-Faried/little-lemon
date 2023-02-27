@@ -3,7 +3,7 @@ const Resources = {
     footerLogo: `${process.env.PUBLIC_URL}/resources/footer-logo.png`,
     closeIcon: `${process.env.PUBLIC_URL}/resources/menu/close.png`,
     hamIcon: `${process.env.PUBLIC_URL}/resources/menu/hamburger.png`,
-    starIcon: `${process.env.PUBLIC_URL}/resources/menu/star.png`,
+    starIcon: `${process.env.PUBLIC_URL}/resources/star.png`,
 
     menu: `${process.env.PUBLIC_URL}/resources/menu.webp`,
     heroImage: `${process.env.PUBLIC_URL}/resources/menu/item6.jpeg`,
