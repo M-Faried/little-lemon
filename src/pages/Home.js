@@ -1,8 +1,9 @@
 import PageWrapper from './PageWrapper/PageWrapper';
+import HomePanner from '../components/HomePanner/HomePanner';
 
 const Home = () => {
     return (
-        <h1>Here goes the Home Page Content</h1>
+        <HomePanner />
     )
 }
 

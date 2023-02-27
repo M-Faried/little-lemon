@@ -6,6 +6,7 @@ const Resources = {
 
     menu: `${process.env.PUBLIC_URL}/resources/menu.webp`,
     heroImage: `${process.env.PUBLIC_URL}/resources/menu/item6.jpeg`,
+    pannerImage: `${process.env.PUBLIC_URL}/resources/menu/item2.png`,
     errorImage: `${process.env.PUBLIC_URL}/resources/menu/item7.webp`,
 };
 
