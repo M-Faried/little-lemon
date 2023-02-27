@@ -1,9 +1,14 @@
 .section-header {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
     align-items: center;
     text-align: center;
     font-weight: bold;
 }
 
-.section-header>span {}
+.section-header>span {
+    background-color: #495e57;
+    color: white;
+    padding: 0.5rem 3rem;
+    border-radius: 15px;
+}
