@@ -9,6 +9,7 @@ const MealCard = ({ image, name, price, description }) => {
     const onImageClick = () => {
         navigate(Routes.ORDER);
     }
+
     return (
         <div className="meal-card">
             <img src={image} alt="menu item" onClick={onImageClick} />
