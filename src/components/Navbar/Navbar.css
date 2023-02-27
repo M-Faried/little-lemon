@@ -24,6 +24,7 @@ nav {
     height: 100%;
     font-weight: bold;
     font-family: "Karla", serif;
+    font-size: 25px;
 }
 
 .styled-link:hover {
