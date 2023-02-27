@@ -1,0 +1,18 @@
+.testimonials {
+    padding: 2rem 5rem 0 5rem;
+}
+
+.testimonials-header {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2vw;
+    align-items: center;
+}
