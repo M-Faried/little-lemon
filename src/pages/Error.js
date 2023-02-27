@@ -7,7 +7,7 @@ const Error = () => {
     console.error(error);
 
     return (
-        <div id="error-page">
+        <div id="error-page" style={{ padding: '40px' }}>
             <h1>Oops!</h1>
             <p>Sorry, an unexpected error has occurred.</p>
             <p>
