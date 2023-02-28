@@ -2,6 +2,7 @@
     background-color: #edefee;
     padding-bottom: 1rem;
     transition: 0.4s;
+    border-radius: 15px;
 }
 
 .meal-card:hover {
@@ -11,6 +12,7 @@
 .meal-card>img {
     height: 25vh;
     width: 100%;
+    border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
 
@@ -29,4 +31,5 @@
 .meal-card-contents>h3 {
     font-size: 1.6rem;
     margin: 0.6rem 0;
+    color: coral;
 }
