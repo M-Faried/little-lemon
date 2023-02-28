@@ -15,4 +15,4 @@ A detailed and responsive website with resevation feature. The application was b
 
 ### Author
 
-- [Mohamed Faried](https://m-faried.github.io/m-faried-portfolio/)
+- [Mo Faried](https://m-faried.github.io/m-faried-portfolio/)
