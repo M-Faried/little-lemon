@@ -30,8 +30,8 @@ const Footer = () => {
                 items={[
                     <Link key='home' to={Routes.HOME}>Home</Link>,
                     <Link key='menu' to={Routes.MENU}>Menu</Link>,
-                    <Link key='order' to={Routes.ORDER}>Order</Link>,
                     <Link key='reservations' to={Routes.RESERVE}>Reservations</Link>,
+                    <Link key='order' to={Routes.ORDER}>Order</Link>,
                     <Link key='about' to={Routes.ABOUT}>About</Link>,
                 ]}
             />

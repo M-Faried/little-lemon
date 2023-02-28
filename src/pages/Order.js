@@ -5,7 +5,7 @@ import PageContentContainer from './PageContentContainer';
 const Order = () => {
     return (
         <PageContentContainer>
-            <h1>Order</h1>
+            <h1>Order (Under Construction)</h1>
         </PageContentContainer>
     )
 }
