@@ -14,8 +14,8 @@ const HomePanner = () => {
                     on traditional recipes served with a modern twist.
                 </p>
                 <div className='panner-links'>
-                    <Link className="goto-button" to={Routes.RESERVE}>Reserve Table</Link>
                     <Link className="goto-button" to={Routes.MENU}>Check Menu</Link>
+                    <Link className="goto-button" to={Routes.RESERVE}>Reserve Table</Link>
                 </div>
             </div>
             <div className='panner-image'>
