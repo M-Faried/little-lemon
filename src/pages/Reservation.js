@@ -1,10 +1,14 @@
-import PageWrapper from './PageWrapper/PageWrapper';
 import Resources from '../Resources';
+import PageWrapper from './PageWrapper/PageWrapper';
+import PageContentContainer from './PageContentContainer';
+import Reserve from '../components/Reserve/Reserve';
 
 const Reservation = () => {
     return (
-        <h1>Reservation</h1>
-    )
+        <PageContentContainer>
+            <Reserve />
+        </PageContentContainer>
+    );
 }
 
 export default PageWrapper(Reservation, Resources.greekSalad, 'Reserve Table');
