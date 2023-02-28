@@ -13,7 +13,7 @@ const Resources = {
     greekSalad: `${process.env.PUBLIC_URL}/resources/menu/item7.webp`,
     bruchetta: `${process.env.PUBLIC_URL}/resources/menu/item1.jpeg`,
     lemonCake: `${process.env.PUBLIC_URL}/resources/menu/item8.webp`,
-
+    oriental: `${process.env.PUBLIC_URL}/resources/menu/item4.jpeg`,
 };
 
 export default Resources;

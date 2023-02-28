@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Resources from '../../Resources';
+import Routes from "../../Routes";
 import './Footer.css';
 
 const FooterList = ({ title, items }) => {
@@ -27,10 +28,11 @@ const Footer = () => {
             <FooterList
                 title='Navigation'
                 items={[
-                    <Link key='home' to="/">Home</Link>,
-                    <Link key='about' to="/about">About</Link>,
-                    <Link key='reservations' to="/reservations">Reservations</Link>,
-                    <Link key='order' to="/order">Order</Link>
+                    <Link key='home' to={Routes.HOME}>Home</Link>,
+                    <Link key='menu' to={Routes.MENU}>Menu</Link>,
+                    <Link key='order' to={Routes.ORDER}>Order</Link>,
+                    <Link key='reservations' to={Routes.RESERVE}>Reservations</Link>,
+                    <Link key='about' to={Routes.ABOUT}>About</Link>,
                 ]}
             />
 

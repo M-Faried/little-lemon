@@ -1,6 +1,7 @@
 const Routes = {
     HOME: '/',
     ORDER: '/order',
+    MENU: '/menu',
     RESERVE: '/reservations',
     LOGIN: '/login',
     ABOUT: '/about',

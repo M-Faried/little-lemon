@@ -17,9 +17,9 @@ const Navbar = () => {
             </div>
 
             <Link className="styled-link" to={Routes.HOME}>Home</Link>
+            <Link className="styled-link" to={Routes.MENU}>Menu</Link>
             <Link className="styled-link" to={Routes.ORDER}>Order</Link>
             <Link className="styled-link" to={Routes.RESERVE}>Reservations</Link>
-            <Link className="styled-link" to={Routes.LOGIN}>Login</Link>
             <Link className="styled-link" to={Routes.ABOUT}>About</Link>
         </nav>
     );
