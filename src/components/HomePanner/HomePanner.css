@@ -37,3 +37,12 @@
     object-fit: cover;
     overflow: hidden;
 }
+
+.panner-links {
+    width: 100%;
+    display: flex;
+}
+
+.panner-links>.goto-button {
+    margin: 0 1rem;
+}
