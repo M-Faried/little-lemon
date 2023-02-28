@@ -1,15 +1,16 @@
 import Resources from '../Resources';
 import PageWrapper from './PageWrapper/PageWrapper';
+import PageContentContainer from './PageContentContainer';
 
 const Menu = () => {
     return (
-        <div style={{ margin: '4rem 1.5rem' }}>
+        <PageContentContainer>
             <img
                 src={Resources.menu}
                 alt='menu'
                 style={{ width: '100%' }}
             />
-        </div>
+        </PageContentContainer>
     )
 }
 
