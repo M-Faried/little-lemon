@@ -1,10 +1,16 @@
-import Recources from '../Resources';
+import Resources from '../Resources';
 import PageWrapper from './PageWrapper/PageWrapper';
 
 const Menu = () => {
     return (
-        <h1>Menu</h1>
+        <div style={{ margin: '4rem 1.5rem' }}>
+            <img
+                src={Resources.menu}
+                alt='menu'
+                style={{ width: '100%' }}
+            />
+        </div>
     )
 }
 
-export default PageWrapper(Menu, Recources.oriental, "Menu");
+export default PageWrapper(Menu, Resources.oriental, "Menu");
